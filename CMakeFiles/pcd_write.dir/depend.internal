@@ -5,6 +5,8 @@ CMakeFiles/pcd_write.dir/main.cpp.o
  /home/adrien/Documents/Projets/Tuto/main.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
+ /usr/include/eigen3/Eigen/Dense
+ /usr/include/eigen3/Eigen/Eigenvalues
  /usr/include/eigen3/Eigen/Geometry
  /usr/include/eigen3/Eigen/Householder
  /usr/include/eigen3/Eigen/Jacobi
@@ -133,6 +135,25 @@ CMakeFiles/pcd_write.dir/main.cpp.o
  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
  /usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h
  /usr/include/eigen3/Eigen/src/Core/util/XprHelper.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/./ComplexSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/./HessenbergDecomposition.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/./RealQZ.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/./RealSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/./Tridiagonalization.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur_MKL.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur_MKL.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_MKL.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
  /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h
  /usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h
  /usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h
@@ -179,12 +200,31 @@ CMakeFiles/pcd_write.dir/main.cpp.o
  /usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
  /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
  /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+ /usr/include/eigen3/unsupported/Eigen/NonLinearOptimization
+ /usr/include/eigen3/unsupported/Eigen/NumericalDiff
+ /usr/include/eigen3/unsupported/Eigen/Polynomials
+ /usr/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/HybridNonLinearSolver.h
+ /usr/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/LevenbergMarquardt.h
+ /usr/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/chkder.h
+ /usr/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/covar.h
+ /usr/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/dogleg.h
+ /usr/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/fdjac1.h
+ /usr/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/lmpar.h
+ /usr/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/qrsolv.h
+ /usr/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/r1mpyq.h
+ /usr/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/r1updt.h
+ /usr/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/rwupdt.h
+ /usr/include/eigen3/unsupported/Eigen/src/NumericalDiff/NumericalDiff.h
+ /usr/include/eigen3/unsupported/Eigen/src/Polynomials/Companion.h
+ /usr/include/eigen3/unsupported/Eigen/src/Polynomials/PolynomialSolver.h
+ /usr/include/eigen3/unsupported/Eigen/src/Polynomials/PolynomialUtils.h
  /usr/include/x86_64-linux-gnu/bits/mman-linux.h
  /usr/include/x86_64-linux-gnu/bits/mman.h
  /usr/include/x86_64-linux-gnu/bits/types.h
  /usr/include/x86_64-linux-gnu/bits/typesizes.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/sys/mman.h
+ /usr/local/include/pcl-1.7/pcl/ModelCoefficients.h
  /usr/local/include/pcl-1.7/pcl/PCLHeader.h
  /usr/local/include/pcl-1.7/pcl/PCLImage.h
  /usr/local/include/pcl-1.7/pcl/PCLPointCloud2.h
@@ -193,16 +233,27 @@ CMakeFiles/pcd_write.dir/main.cpp.o
  /usr/local/include/pcl-1.7/pcl/PolygonMesh.h
  /usr/local/include/pcl-1.7/pcl/TextureMesh.h
  /usr/local/include/pcl-1.7/pcl/Vertices.h
+ /usr/local/include/pcl-1.7/pcl/cloud_iterator.h
+ /usr/local/include/pcl-1.7/pcl/common/centroid.h
  /usr/local/include/pcl-1.7/pcl/common/concatenate.h
  /usr/local/include/pcl-1.7/pcl/common/copy_point.h
+ /usr/local/include/pcl-1.7/pcl/common/eigen.h
+ /usr/local/include/pcl-1.7/pcl/common/impl/accumulators.hpp
+ /usr/local/include/pcl-1.7/pcl/common/impl/centroid.hpp
  /usr/local/include/pcl-1.7/pcl/common/impl/copy_point.hpp
+ /usr/local/include/pcl-1.7/pcl/common/impl/eigen.hpp
  /usr/local/include/pcl-1.7/pcl/common/impl/io.hpp
+ /usr/local/include/pcl-1.7/pcl/common/impl/transforms.hpp
  /usr/local/include/pcl-1.7/pcl/common/io.h
+ /usr/local/include/pcl-1.7/pcl/common/point_operators.h
  /usr/local/include/pcl-1.7/pcl/common/point_tests.h
+ /usr/local/include/pcl-1.7/pcl/common/transforms.h
  /usr/local/include/pcl-1.7/pcl/console/print.h
  /usr/local/include/pcl-1.7/pcl/conversions.h
+ /usr/local/include/pcl-1.7/pcl/correspondence.h
  /usr/local/include/pcl-1.7/pcl/exceptions.h
  /usr/local/include/pcl-1.7/pcl/for_each_type.h
+ /usr/local/include/pcl-1.7/pcl/impl/cloud_iterator.hpp
  /usr/local/include/pcl-1.7/pcl/impl/pcl_base.hpp
  /usr/local/include/pcl-1.7/pcl/impl/point_types.hpp
  /usr/local/include/pcl-1.7/pcl/io/boost.h
@@ -210,11 +261,51 @@ CMakeFiles/pcd_write.dir/main.cpp.o
  /usr/local/include/pcl-1.7/pcl/io/impl/pcd_io.hpp
  /usr/local/include/pcl-1.7/pcl/io/lzf.h
  /usr/local/include/pcl-1.7/pcl/io/pcd_io.h
+ /usr/local/include/pcl-1.7/pcl/kdtree/flann.h
+ /usr/local/include/pcl-1.7/pcl/kdtree/impl/kdtree_flann.hpp
+ /usr/local/include/pcl-1.7/pcl/kdtree/kdtree.h
+ /usr/local/include/pcl-1.7/pcl/kdtree/kdtree_flann.h
  /usr/local/include/pcl-1.7/pcl/pcl_base.h
  /usr/local/include/pcl-1.7/pcl/pcl_config.h
  /usr/local/include/pcl-1.7/pcl/pcl_exports.h
  /usr/local/include/pcl-1.7/pcl/pcl_macros.h
  /usr/local/include/pcl-1.7/pcl/point_cloud.h
+ /usr/local/include/pcl-1.7/pcl/point_representation.h
  /usr/local/include/pcl-1.7/pcl/point_traits.h
  /usr/local/include/pcl-1.7/pcl/point_types.h
  /usr/local/include/pcl-1.7/pcl/register_point_struct.h
+ /usr/local/include/pcl-1.7/pcl/registration/boost.h
+ /usr/local/include/pcl-1.7/pcl/registration/convergence_criteria.h
+ /usr/local/include/pcl-1.7/pcl/registration/correspondence_estimation.h
+ /usr/local/include/pcl-1.7/pcl/registration/correspondence_rejection.h
+ /usr/local/include/pcl-1.7/pcl/registration/correspondence_sorting.h
+ /usr/local/include/pcl-1.7/pcl/registration/correspondence_types.h
+ /usr/local/include/pcl-1.7/pcl/registration/default_convergence_criteria.h
+ /usr/local/include/pcl-1.7/pcl/registration/eigen.h
+ /usr/local/include/pcl-1.7/pcl/registration/icp.h
+ /usr/local/include/pcl-1.7/pcl/registration/impl/correspondence_estimation.hpp
+ /usr/local/include/pcl-1.7/pcl/registration/impl/correspondence_rejection.hpp
+ /usr/local/include/pcl-1.7/pcl/registration/impl/correspondence_types.hpp
+ /usr/local/include/pcl-1.7/pcl/registration/impl/default_convergence_criteria.hpp
+ /usr/local/include/pcl-1.7/pcl/registration/impl/icp.hpp
+ /usr/local/include/pcl-1.7/pcl/registration/impl/registration.hpp
+ /usr/local/include/pcl-1.7/pcl/registration/impl/transformation_estimation_point_to_plane_lls.hpp
+ /usr/local/include/pcl-1.7/pcl/registration/impl/transformation_estimation_svd.hpp
+ /usr/local/include/pcl-1.7/pcl/registration/registration.h
+ /usr/local/include/pcl-1.7/pcl/registration/transformation_estimation.h
+ /usr/local/include/pcl-1.7/pcl/registration/transformation_estimation_point_to_plane_lls.h
+ /usr/local/include/pcl-1.7/pcl/registration/transformation_estimation_svd.h
+ /usr/local/include/pcl-1.7/pcl/registration/warp_point_rigid.h
+ /usr/local/include/pcl-1.7/pcl/sample_consensus/boost.h
+ /usr/local/include/pcl-1.7/pcl/sample_consensus/eigen.h
+ /usr/local/include/pcl-1.7/pcl/sample_consensus/impl/ransac.hpp
+ /usr/local/include/pcl-1.7/pcl/sample_consensus/impl/sac_model_registration.hpp
+ /usr/local/include/pcl-1.7/pcl/sample_consensus/model_types.h
+ /usr/local/include/pcl-1.7/pcl/sample_consensus/ransac.h
+ /usr/local/include/pcl-1.7/pcl/sample_consensus/sac.h
+ /usr/local/include/pcl-1.7/pcl/sample_consensus/sac_model.h
+ /usr/local/include/pcl-1.7/pcl/sample_consensus/sac_model_registration.h
+ /usr/local/include/pcl-1.7/pcl/search/impl/kdtree.hpp
+ /usr/local/include/pcl-1.7/pcl/search/impl/search.hpp
+ /usr/local/include/pcl-1.7/pcl/search/kdtree.h
+ /usr/local/include/pcl-1.7/pcl/search/search.h
