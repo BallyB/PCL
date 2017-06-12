@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pcd_write.dir/main.cpp.o"
+  "CMakeFiles/pcd_write.dir/interactive_icp.cpp.o"
   "pcd_write.pdb"
   "pcd_write"
 )

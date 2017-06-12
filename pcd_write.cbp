@@ -166,7 +166,7 @@
          </MakeCommands>
       </Target>
       </Build>
-      <Unit filename="/home/adrien/Documents/Projets/Tuto/main.cpp">
+      <Unit filename="/home/adrien/Documents/Projets/Tuto/interactive_icp.cpp">
          <Option target="pcd_write"/>
       </Unit>
       <Unit filename="/home/adrien/Documents/Projets/Tuto/CMakeLists.txt">

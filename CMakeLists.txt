@@ -1,12 +1,12 @@
-cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
+cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
 
-project(pcd_write)
+project(pcl-interactive_icp)
 
-find_package(PCL 1.2 REQUIRED)
+find_package(PCL 1.5 REQUIRED)
 
 include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
-add_executable (pcd_write main.cpp)
-target_link_libraries (pcd_write ${PCL_LIBRARIES})
+add_executable (interactive_icp interactive_icp.cpp)
+target_link_libraries (interactive_icp ${PCL_LIBRARIES})

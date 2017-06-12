@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named pcd_write
+# Target rules for targets named interactive_icp
 
 # Build rule for target.
-pcd_write: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pcd_write
-.PHONY : pcd_write
+interactive_icp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 interactive_icp
+.PHONY : interactive_icp
 
 # fast build rule for target.
-pcd_write/fast:
-	$(MAKE) -f CMakeFiles/pcd_write.dir/build.make CMakeFiles/pcd_write.dir/build
-.PHONY : pcd_write/fast
+interactive_icp/fast:
+	$(MAKE) -f CMakeFiles/interactive_icp.dir/build.make CMakeFiles/interactive_icp.dir/build
+.PHONY : interactive_icp/fast
 
-main.o: main.cpp.o
+interactive_icp.o: interactive_icp.cpp.o
 
-.PHONY : main.o
+.PHONY : interactive_icp.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/pcd_write.dir/build.make CMakeFiles/pcd_write.dir/main.cpp.o
-.PHONY : main.cpp.o
+interactive_icp.cpp.o:
+	$(MAKE) -f CMakeFiles/interactive_icp.dir/build.make CMakeFiles/interactive_icp.dir/interactive_icp.cpp.o
+.PHONY : interactive_icp.cpp.o
 
-main.i: main.cpp.i
+interactive_icp.i: interactive_icp.cpp.i
 
-.PHONY : main.i
+.PHONY : interactive_icp.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/pcd_write.dir/build.make CMakeFiles/pcd_write.dir/main.cpp.i
-.PHONY : main.cpp.i
+interactive_icp.cpp.i:
+	$(MAKE) -f CMakeFiles/interactive_icp.dir/build.make CMakeFiles/interactive_icp.dir/interactive_icp.cpp.i
+.PHONY : interactive_icp.cpp.i
 
-main.s: main.cpp.s
+interactive_icp.s: interactive_icp.cpp.s
 
-.PHONY : main.s
+.PHONY : interactive_icp.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/pcd_write.dir/build.make CMakeFiles/pcd_write.dir/main.cpp.s
-.PHONY : main.cpp.s
+interactive_icp.cpp.s:
+	$(MAKE) -f CMakeFiles/interactive_icp.dir/build.make CMakeFiles/interactive_icp.dir/interactive_icp.cpp.s
+.PHONY : interactive_icp.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... pcd_write"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... interactive_icp"
+	@echo "... interactive_icp.o"
+	@echo "... interactive_icp.i"
+	@echo "... interactive_icp.s"
 .PHONY : help
 
 

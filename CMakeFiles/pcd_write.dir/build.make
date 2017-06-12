@@ -57,38 +57,38 @@ include CMakeFiles/pcd_write.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pcd_write.dir/flags.make
 
-CMakeFiles/pcd_write.dir/main.cpp.o: CMakeFiles/pcd_write.dir/flags.make
-CMakeFiles/pcd_write.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adrien/Documents/Projets/Tuto/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pcd_write.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcd_write.dir/main.cpp.o -c /home/adrien/Documents/Projets/Tuto/main.cpp
+CMakeFiles/pcd_write.dir/interactive_icp.cpp.o: CMakeFiles/pcd_write.dir/flags.make
+CMakeFiles/pcd_write.dir/interactive_icp.cpp.o: interactive_icp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adrien/Documents/Projets/Tuto/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pcd_write.dir/interactive_icp.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcd_write.dir/interactive_icp.cpp.o -c /home/adrien/Documents/Projets/Tuto/interactive_icp.cpp
 
-CMakeFiles/pcd_write.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcd_write.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adrien/Documents/Projets/Tuto/main.cpp > CMakeFiles/pcd_write.dir/main.cpp.i
+CMakeFiles/pcd_write.dir/interactive_icp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcd_write.dir/interactive_icp.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adrien/Documents/Projets/Tuto/interactive_icp.cpp > CMakeFiles/pcd_write.dir/interactive_icp.cpp.i
 
-CMakeFiles/pcd_write.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcd_write.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adrien/Documents/Projets/Tuto/main.cpp -o CMakeFiles/pcd_write.dir/main.cpp.s
+CMakeFiles/pcd_write.dir/interactive_icp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcd_write.dir/interactive_icp.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adrien/Documents/Projets/Tuto/interactive_icp.cpp -o CMakeFiles/pcd_write.dir/interactive_icp.cpp.s
 
-CMakeFiles/pcd_write.dir/main.cpp.o.requires:
+CMakeFiles/pcd_write.dir/interactive_icp.cpp.o.requires:
 
-.PHONY : CMakeFiles/pcd_write.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/pcd_write.dir/interactive_icp.cpp.o.requires
 
-CMakeFiles/pcd_write.dir/main.cpp.o.provides: CMakeFiles/pcd_write.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/pcd_write.dir/build.make CMakeFiles/pcd_write.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/pcd_write.dir/main.cpp.o.provides
+CMakeFiles/pcd_write.dir/interactive_icp.cpp.o.provides: CMakeFiles/pcd_write.dir/interactive_icp.cpp.o.requires
+	$(MAKE) -f CMakeFiles/pcd_write.dir/build.make CMakeFiles/pcd_write.dir/interactive_icp.cpp.o.provides.build
+.PHONY : CMakeFiles/pcd_write.dir/interactive_icp.cpp.o.provides
 
-CMakeFiles/pcd_write.dir/main.cpp.o.provides.build: CMakeFiles/pcd_write.dir/main.cpp.o
+CMakeFiles/pcd_write.dir/interactive_icp.cpp.o.provides.build: CMakeFiles/pcd_write.dir/interactive_icp.cpp.o
 
 
 # Object files for target pcd_write
 pcd_write_OBJECTS = \
-"CMakeFiles/pcd_write.dir/main.cpp.o"
+"CMakeFiles/pcd_write.dir/interactive_icp.cpp.o"
 
 # External object files for target pcd_write
 pcd_write_EXTERNAL_OBJECTS =
 
-pcd_write: CMakeFiles/pcd_write.dir/main.cpp.o
+pcd_write: CMakeFiles/pcd_write.dir/interactive_icp.cpp.o
 pcd_write: CMakeFiles/pcd_write.dir/build.make
 pcd_write: /usr/lib/x86_64-linux-gnu/libboost_system.so
 pcd_write: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
@@ -372,7 +372,7 @@ CMakeFiles/pcd_write.dir/build: pcd_write
 
 .PHONY : CMakeFiles/pcd_write.dir/build
 
-CMakeFiles/pcd_write.dir/requires: CMakeFiles/pcd_write.dir/main.cpp.o.requires
+CMakeFiles/pcd_write.dir/requires: CMakeFiles/pcd_write.dir/interactive_icp.cpp.o.requires
 
 .PHONY : CMakeFiles/pcd_write.dir/requires
 
